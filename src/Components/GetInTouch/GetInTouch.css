@@ -1,0 +1,122 @@
+.get-in-touch-class{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #06002E;
+    /* background: linear-gradient(71.02deg, rgba(6, 0, 46, 0.61) -2.58%, #06002E 53.17%); */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.957) ,#000000f9);
+}
+
+.get-in-touch-upper{
+    width: 90vw;
+    margin: 4vmax;
+    display: flex;
+    margin-bottom: 1vmax;
+    justify-content: space-between;
+
+}
+
+.get-in-touch-aboutme-btn{
+    border:none;
+    font-weight: 500;
+    padding: 1vmax;
+    font-size: 1.3vmax;
+    padding-right: 2vmax;
+    padding-left: 2vmax;
+    border-radius: 10px;
+  
+}
+
+.get-in-touch-upperline{
+    width: 90vw;
+    height: 0.8px;
+    background-color: white;
+    margin-bottom: 4vmax;
+}
+
+.getintouchpara{
+    color: white;
+    font-size: 3vmax;
+    font-weight: bolder;
+}
+
+.getintouchpara span{
+    color:#9d8cff;
+}
+
+.getintouch-user-photo{
+    width: 30vh;
+    height: 30vh;
+    
+    border-radius: 50%;
+}
+
+.getintouch-username{
+    color: white;
+    font-size: 2.5vmax;
+    align-items: center;
+    margin: 1vmax;
+    font-weight: 700;
+}
+
+.getintouch-userdesc{
+    color: #999999;
+    font-size: 1.3vmax;
+    margin-bottom: 2vmax;
+}
+
+.get-in-touch-middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.get-in-touch-lower{
+    margin-top: 2vmax;
+    display: flex;
+    width: 90vw;
+    justify-content: space-evenly
+}
+
+.social-media-logos{
+    height: 3vmax;
+}
+
+.social-media-logoname{
+    display: flex;
+    flex-direction: column;
+    align-items:center
+}
+
+
+.social-media-logoname p{
+  color: rgb(251, 251, 251);
+  font-size: 1vmax;
+  margin-top: 1vmax;
+  padding-bottom: 4vmax;
+}
+
+
+.social-media-whats{
+    color:#59d264 !important;
+}
+
+.social-media-link{
+    color:#0070b1 !important;
+}
+.social-media-tele{
+    color:#ffffff !important;
+}
+.social-media-gmail{
+    color:#e51c19 !important;
+}
+
+
+@media screen and (max-width: 600px){
+    .getintouch-user-photo{
+        width: 12vh;
+        height: 12vh;
+    }
+}

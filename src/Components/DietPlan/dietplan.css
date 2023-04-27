@@ -1,0 +1,201 @@
+.Dietplan{
+    padding-top: 5vmax ;
+    background: linear-gradient(263.08deg, #06002E 50.27%, rgba(6, 0, 46, 0.38) 137.11%);
+    height: 90vh;
+    display: flex;
+    background-image: url("https://res.cloudinary.com/dycitvrpg/image/upload/v1682149599/ezgif.com-video-to-gif_2_wivooi.gif");
+    flex-direction: column;
+    background-size: cover;
+
+}
+
+.Dietplan-heading{
+    color: white;
+    align-items: left;
+    padding-left: 3vmax;
+    font-size: 2.3vmax;
+    margin-bottom: 0;
+    text-align: left;
+}
+.Dietplan-Description{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 3vmax;
+}
+.Dietplan-main-div{
+    background-color: rgba(178, 178, 178, 0.58);
+    border-radius: 1vmax;
+    width: 70vw;
+    margin: auto;
+    padding: 1%;
+}
+
+
+.heading-about{
+    text-align: left;
+    padding-left: 5%;
+    font-size: 1.5vw;
+}
+
+.dietplan-main{
+    width: 100vw;
+   align-items: center;
+   
+   /* padding-left: 15%; */
+   margin-top: 2%;
+   
+}
+
+.form-dietplan{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2vw;
+}
+
+.input-fields-dietplan-item{
+    border: none;
+    background: #ffffff;
+    margin: 0.5vmax;
+    font-size: 1vmax;
+    padding: 0.3vmax;
+    border-radius: 0.3vmax;
+}
+
+.Dietplan-left{
+    text-align: left;
+    line-height: 7vh;
+}
+
+.Dietplan-right{
+    background: rgba(0, 0, 0, 0.92);
+    height: 40vh;
+    width: 50vw;
+    border: 0.5px solid rgba(0, 0, 0, 0.775);
+    box-shadow: 5px 5px 10px 0.2px black;
+    border-radius: 0.5vmax;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.form-button-div{
+    padding: 1vmax;
+    text-align: right;
+}
+
+.form-button{
+    color:white;
+    background-color: #000000;
+    padding: 0.5vmax;
+    padding-left: 1vmax;
+    padding-right: 1vmax;
+    border-radius:5px;
+    box-shadow: 5px 5px 10px 0.2px rgba(96, 93, 130, 0.5);
+   
+}
+
+.form-button:hover{
+   scale: 1.1;
+}
+
+.heading-main-dietplan{
+    color:white;
+    font-size: 1.4vmax;
+}
+
+
+.imgc{
+    height: 2vmax;
+    border-radius: 50%;
+    width: 2vmax;
+    margin-bottom: 0.5px;
+}
+.img-div{
+    border-radius: 50%;
+}
+#btn-diet-food-active{
+    margin: 1vmax;
+    background-color: #b0b0b0;
+    border-radius:1vmax ;
+    padding: 1vmax;
+    border: none;
+
+}
+
+#btn-diet-food{
+    margin: 1vmax;
+    background-color: transparent;
+    border: none;
+}
+
+.img-name{
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+ }
+
+ 
+@media screen and (max-width: 600px){
+    .form-dietplan{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   
+
+    .input-fields-dietplan-item{
+        height: 3vh;
+    }
+    .Dietplan{
+        height: auto;
+        padding-top: 15vh;
+        padding-bottom: 10vh;
+        background-image: url('https://res.cloudinary.com/dycitvrpg/image/upload/v1682332958/ezgif.com-optimize_o9dc2j.gif');
+    }
+    .Dietplan-Description{
+        margin-bottom: 4vh;
+        font-size: 0.8rem;
+        padding-right: 3vh;
+    }
+    .Dietplan-heading{
+        font-size: 1.4rem;
+    }
+
+    .input-fields-dietplan{
+        margin: 0;
+        padding: 0;
+    }
+    .heading-about{
+        font-size: 1.3rem;
+        text-align: center;
+        margin: 0;
+        margin-top: 3vh;
+        padding: 0;
+    }
+    .Dietplan-left{
+        text-align: left;
+        line-height: 4vh;
+        width: 60%;
+
+    }
+    .Dietplan-right{
+        width: 90%;
+        margin-top: 5vh;
+    }
+
+    .heading-main-dietplan{
+        font-size: 1.3rem;
+    }
+
+    .form-button{
+        margin: 2vmax;
+        margin-right: 0;
+    }
+}

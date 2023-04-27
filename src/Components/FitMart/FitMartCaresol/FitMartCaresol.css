@@ -1,0 +1,13 @@
+.fit-mart-caresol-img{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+
+@media screen and (max-width:600px) {
+    .fit-mart-caresol-img{
+
+    }
+}

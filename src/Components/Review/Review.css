@@ -1,0 +1,93 @@
+.Review-main{
+    padding: 10vmax;
+    /* padding-top: 10vmax; */
+    background: linear-gradient(265.52deg, #000000 60.86%, rgba(6, 0, 46, 0.524) 150.63%);
+}
+
+.Review-main-box{
+
+    border-radius: 2vmax;
+    box-shadow: 0px 4px 28px -8px #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
+    padding: 2vmax;
+    justify-content: space-around;
+}
+.Review-left{
+    width: 40%;
+    text-align: left;
+    line-height: 2vmax;
+}
+.Review-main-heading-para{
+    color: white;
+    font-size: 2vmax;
+    margin-bottom: 4vmax;
+}
+
+.Review-main-form-imput-tags{
+    background-color: transparent;
+    border: none;
+    margin-bottom: 0px;
+    border:0;outline:0;
+    font-size: large;
+    width: 100%;
+    color: #FFFFFF;
+}
+.Review-main-form-imput-tags:focus{
+    outline:none!important;
+    color: white;
+}
+
+.Review-main-form-image{
+    width: 25vmax;
+    margin: 0;
+}
+
+.Review-main-form-imput-button-div{
+    text-align: center;
+    margin: 2vmax;
+}
+.Review-main-form-imput-button{
+    font-size: 1.2vmax;
+    font-weight: bold;
+    border-radius: 0.5vmax;
+    padding-left: 1vmax;
+    padding-right: 1vmax;
+}
+
+.Review-main-form-imput-button:hover{
+    font-weight: bolder;
+    font-size: 1.5vmax;
+}
+ hr{
+    border: 1px solid white;  
+ }
+.Review-main-form-imput-textarea{
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 98%;
+    height: 20vmin;
+    margin-top: 3vh;
+    border: 2px solid white;
+    font-size: 1rem;
+}
+@media screen and (max-width: 600px){
+    .Review-main-box{
+        display: flex;
+        margin-top: 3vh;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 90%;
+    }
+    .Review-left{
+        width: 100%;
+    }
+    .Review-main{
+        padding-left: 5vw;
+
+    }
+    
+    
+}

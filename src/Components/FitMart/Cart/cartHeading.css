@@ -1,0 +1,19 @@
+.cart-page-heading-div{
+    display: flex;
+    align-items: center;
+    margin: 1vmax;
+    
+    /* float: center; */
+    justify-content: center;
+}
+
+.cart-page-heading-icon{
+font-size: 2.5vmax;
+margin: 1vmax;
+}
+
+.cart-page-heading-para{
+    font-size:2.5vmax;
+    font-weight: bolder;
+    margin: 1vmax;
+}

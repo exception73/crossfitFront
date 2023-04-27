@@ -1,0 +1,35 @@
+.feactureCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 3px solid red; */
+    background-color: #000000;
+    margin: 2vmax;
+    width: 20vmax;
+    height: 35vmax;
+    max-height: 300px;
+    padding: 2rem;
+    margin-bottom: 4vmax;
+    /* box-shadow: 0px 10px 10px  #525C67, 0px 1px 3px 1px rgba(60, 64, 67, 0.15); */
+    /* box-shadow: rgba(255, 255, 255, 0.25) 3px 0px 1px , rgba(255, 255, 255, 0.3) 0px 1px; */
+    box-shadow: 5px 5px 19px 1px #ffffff23;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.feactureCard span{
+    font-size: 1rem;
+}
+
+.feactureCard img{
+    height: 5vmax;
+}
+
+
+@media screen and (max-width: 600px){
+    .feactureCard{
+        height: auto;
+        text-align: left;
+    }
+}

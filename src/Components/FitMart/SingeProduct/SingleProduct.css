@@ -1,0 +1,142 @@
+.single-product-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.single-product-img{
+    width: 30vw;
+    margin: 1vmax;
+    max-width: 350px;
+
+}
+.single-product-desc{
+    width: 50vw;
+}
+.single-product-fitmart-heading{
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin: 0.3vmax;
+}
+
+.product-name{
+    font-size: 2vw;
+    font-weight: bolder;
+    margin: 0.3vmax;
+    margin-top: 0;
+}
+
+.product-price-parent{
+    display: flex;
+    align-items: center;
+
+}
+
+.product-discounted-price{
+    color:#f13171;
+    margin: 0.3vmax;
+    font-size: 1.4vmax;
+    margin-right: 1vmax;
+}
+
+
+.product-original-price{
+    margin: 0.3vmax;
+    color: gray;
+    font-size: 1.4vmax;
+    margin-right: 1vmax;
+}
+
+
+.product-discount-value{
+    margin: 0.3vmax;
+    background-color: rgb(245, 166, 35);
+    
+    padding: 0.3vmax;
+    padding-right: 0.5vmax;
+    padding-left: 0.5vmax;
+    font-size: 1vmax;
+    margin-right: 1vmax;
+}
+
+.product-desc{
+    color: rgb(125, 125, 125);
+    font-size: 0.9rem;
+    margin-top: 1vmax;
+    margin-bottom: 1vmax;
+}
+
+.product-choose-size{
+    font: 1vmax;
+    margin: 1vmax;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.product-size-button{
+    border: none;
+    background-color: white;
+    
+    margin: 1vmax;
+    margin-top: 0.8vmax;
+    padding: 0.5vmax;
+    font-size: 1.2vmax;
+}
+.product-size-button:hover{
+    border: 3px solid yellow;
+    border-radius: 30%;
+}
+
+.product-add-to-cart-button{
+border: none;
+background-color: #f13171;
+color: white;
+font-size: 1.2vmax;
+padding: 0.5vmax 2.4vmax ;
+border-radius: 130px;
+margin-right: 1vmax;
+}
+
+.product-view-cart-button{
+    border: none;
+    background-color: #f13171;
+    color: white;
+    font-size: 1.2vmax;
+    padding: 0.5vmax 2.4vmax ;
+    border-radius: 130px;
+    margin-right: 1vmax;
+}
+
+
+.product-details{
+    color: rgb(47, 47, 47);
+    margin-top: 3vmax;
+}
+
+.product-details-li{
+    color:gray;
+    font-size: 0.9rem;
+}
+
+.pay-on-delivery{
+    font-size: 0.9rem;
+}
+
+.product-fabric{
+    color: gray;
+    font-size: 0.9rem;
+
+}
+
+@media screen and (max-width:600px) {
+
+    .single-product-page{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+
+}

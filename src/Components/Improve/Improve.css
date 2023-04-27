@@ -1,0 +1,82 @@
+.improve-main{
+    /* height: 90vh; */
+    padding: 10vmax;
+    background: linear-gradient(265.52deg, #000000 60.86%, rgba(6, 0, 46, 0.524) 150.63%);
+}
+
+.improve-main-box{
+
+    border-radius: 2vmax;
+    box-shadow: 0px 4px 28px -8px #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
+    padding: 2vmax;
+    justify-content: space-around;
+}
+.improve-left{
+    width: 40%;
+    text-align: left;
+    line-height: 2vmax;
+}
+.improve-main-heading-para{
+    color: white;
+    font-size: 2vmax;
+    margin-bottom: 4vmax;
+}
+
+.improve-main-form-imput-tags{
+    background-color: transparent;
+    border: none;
+    margin-bottom: 0px;
+    border:0;outline:0;
+    font-size: large;
+    width: 100%;
+}
+.improve-main-form-imput-tags:focus{
+    outline:none!important;
+    color: white;
+}
+
+.improve-main-form-image{
+    width: 25vmax;
+    margin: 0;
+}
+
+.improve-main-form-imput-button-div{
+    text-align: center;
+    margin: 2vmax;
+}
+.improve-main-form-imput-button{
+    font-size: 1.2vmax;
+    font-weight: bold;
+    border-radius: 0.5vmax;
+    padding-left: 1vmax;
+    padding-right: 1vmax;
+}
+
+.improve-main-form-imput-button:hover{
+    font-weight: bolder;
+    font-size: 1.5vmax;
+}
+
+
+@media screen and (max-width: 600px){
+    .improve-main-box{
+        display: flex;
+        margin-top: 3vh;
+        align-items: center;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+   
+    .improve-left{
+        width: 100%;
+    }
+    .improve-main{
+        padding-left: 5vw;
+        padding-top: 15vh;
+
+    }
+}

@@ -1,0 +1,56 @@
+.why-crossfit{
+    
+    background-color: rgba(0, 0, 0, 0.95);
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    text-align: center;
+    
+}
+
+.why-crossfit1{
+    margin-top: 3.2vmax;
+    font-weight: 600;
+    margin-bottom: 1.2vmax;
+}
+p{
+    margin: 0;
+}
+.whiteline{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    
+    height: 1.5px;
+    /* font-size: 100px; */
+    background-color: white;
+}
+
+
+.why-crossfit{
+    color: white;
+    font-size: 1.5vmax;
+}
+
+.crossfit-in-purple{
+    color: #9d8cff;
+    font-size: 2vmax
+}
+
+.desc-why{
+    font-weight: bolder;
+    font-size:3vmax;
+}
+.lower-cards{
+    display: flex;
+    margin: 2vmax;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+

@@ -1,0 +1,24 @@
+.socialNavbar-main{
+    box-shadow: 0px 0px 10px 5px #06002e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5vmax;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding-left: 2vmax;
+    padding-right: 2vmax;
+    background:rgb(233, 232, 232);
+}
+
+.socialNavbar-main-img{
+    height: 3rem;
+}
+
+.user-avatar-post{
+    height: 3rem;
+    padding: 0;
+    margin: 0;
+}

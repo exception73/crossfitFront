@@ -1,0 +1,57 @@
+.shoping-items-parent-div{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    margin: 1vmax;
+    
+    overflow-y: scroll;
+    
+}
+
+
+.shoping-item-img{
+    height: 8vmax;
+    width: 7vmax;
+    background-size: cover;
+}
+
+.shoping-item-color, .shoping-item-size{
+    font-size: 0.7rem;
+    color: rgb(79, 79, 79);
+    margin: 0.4vmax;
+    margin-left: 0;
+}
+
+.shoping-item-name{
+    font-weight: 500;
+}
+ .shoping-item-total-price{
+    font-weight: 500;
+    margin: 0.4vmax;
+    margin-left: 0;
+
+    
+}
+
+
+
+
+.shoping-item-select-quantity{
+    width: 100%;
+    margin: 0.4vmax;
+    margin-left: 0;
+    
+    
+
+}
+
+.shoping-item-delete-icon{
+    font-size: 1.3rem;
+    color: red;
+}
+
+.shoping-items-page-footer{
+    position: absolute;
+    display: none;
+    bottom: 0;
+}

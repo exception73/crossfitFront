@@ -1,0 +1,46 @@
+.post-social{
+    width: 45vw;
+    background-color: white;
+    margin-left: 5vw;
+    margin-right: 10vw;
+    margin-top: 1vh;
+}
+
+.post-social-image{
+    width: 100%;
+}
+
+.post-bottom{
+    display: flex;
+}
+.social-post-user-avatar{
+    border-radius: 50%;
+    height: 7vh;
+    margin:1vh;
+}
+
+.post-bottom-center{
+    text-align: left;
+    width: 70%;
+    margin: 0px;
+    padding: 0;margin-left: 10px;
+}
+
+.username-post{
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+
+.caption-post{
+    margin-top: 0px;
+}
+
+@media screen and (max-width:600px) {
+    .post-social{
+        width: 90vw;
+        background-color: white;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    
+}

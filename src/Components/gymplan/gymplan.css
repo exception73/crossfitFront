@@ -1,0 +1,131 @@
+.gymplan-main{
+    background: linear-gradient(265.52deg, #06002E 40.8%, rgba(6, 0, 46, 0) 150.63%);
+    background-image: url("https://res.cloudinary.com/dycitvrpg/image/upload/v1682149599/ezgif.com-video-to-gif_2_wivooi.gif");
+    padding-top: 8vmax;
+    background-size: cover;
+    padding-bottom: 4vh;
+    margin-top: 0;
+}
+
+.gymplan-heading-para{
+    color: white;
+    font-size: 2.3vmax;
+    margin-bottom: 0;
+}
+.gymplan-main-heading{
+    text-align: left;
+    padding-left: 2vmax;
+}
+.description-gymplan{
+    text-align: left;
+    padding-left: 2vmax;
+}
+
+.gymplan-description-para{
+    color: rgb(196, 199, 202);
+    margin-top: 0.5px;
+    padding-right: 2vmax;
+}
+
+.gymplan-lower{
+    display: flex;
+    justify-content: center;
+}
+.gymplan-lower-left{
+    Background-color: rgba(255, 255, 255, 0.477);
+    padding-bottom: 5vmax;
+    border-radius: 10px;
+    width: 18%;
+    margin: 2vmax;
+    line-height: 3vmax;
+    align-items: center;
+}
+
+
+.gymplan-lower-right{
+    Background-color: rgba(255, 255, 255, 0.477);
+    padding-bottom: 5vmax;
+    border-radius: 10px;
+    width: 18%;
+    margin: 2vmax;
+    align-items: center;
+    line-height: 3vmax;
+  
+    /* box-shadow: 2px 3px 5px 1px rgba(255, 255, 255, 0.416); */
+}
+
+.gymplan-ac-button{
+    font-size: 1.23rem;
+    color: white;
+    background-color: rgb(55, 53, 53);
+    border: none;
+    padding: 0.4rem;
+    padding-left: 1.4vw;
+    border-radius: 1vh;
+    transition: all 0.1s;
+    padding-right: 1.4vw;
+    margin-top: 4vh;
+    /* box-shadow: 3px 3px 4px 0.5px rgba(255, 255, 255, 0.416); */
+}
+
+.gymplan-ac-button:hover{
+    background-color: rgba(0, 0, 0, 0.644);
+}
+
+.gymplan-div-button{
+    text-align: center;
+}
+
+.gymplan-lower-right{
+    text-align: center;
+}
+
+.gymplan-lower-right-heading{
+    text-align: center;
+}
+
+.gymplan-lower-left-heading{
+    text-align: center;
+}
+
+.input-fields-dietplan-item{
+    width:80% ;
+}
+
+.input-fields-dietplan{
+    text-align: center;
+}
+
+
+.gymplan-navbar{
+    background-color: black;
+}
+
+
+@media screen and (max-width:600px) {
+    .gymplan-lower{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gymplan-lower-left{
+        width: 80%;
+        line-height: 5vh;
+    }
+    .gymplan-lower-right{
+        width: 80%;
+        line-height: 5vh;
+    }
+    .gymplan-main{
+        padding-top: 15vh;
+        background-image: url('https://res.cloudinary.com/dycitvrpg/image/upload/v1682332958/ezgif.com-optimize_o9dc2j.gif');
+    
+    }
+    .gymplan-heading-para{
+        font-size: 1.4rem;
+    }
+    .gymplan-description-para{
+        font-size: 0.8rem;
+        margin-bottom: 3vh;
+    }
+}

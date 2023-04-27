@@ -1,0 +1,111 @@
+.socialLanding-main{
+    margin-top: 5vmax;
+    display: flex;
+     justify-content: end;
+    padding: 2vmax;
+    height: auto;
+}
+.profile-box{
+    border-radius: 2vmax;
+  width: 20%;
+  position: fixed;
+  top: 6vmax;
+  left: 2vmax;
+  background-color: #e8e1f3;
+} 
+
+.profile-box-upper-back{
+    width: 100%;
+    border-top-right-radius: 2vmax;
+    border-top-left-radius: 2vmax;
+}
+
+.profile-box-upper-avatar{
+    position: relative;
+    border-radius: 50%;
+    top: -2vmax;
+}
+
+
+
+.profile-box-lower-description{
+    padding-left: 1vmax;
+    margin: 0;
+    text-align: center;
+}
+
+.profile-box-lower-button{
+    margin: 1vmax;
+    background-color: #06002e;
+    border: none;
+    font-size: 1vmax;
+    padding: 0.3vmax;
+    padding-left: 1vmax;
+    padding-right: 1vmax;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+.profile-box-lower-button:hover{
+    scale: 1.05;
+}
+
+
+.profile-box-lower-button-edit{
+    margin: 1vmax;
+    background-color: #ff0022;
+    border: none;
+    font-size: 1vmax;
+    padding: 0.3vmax;
+    padding-left: 1vmax;
+    padding-right: 1vmax;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 2vmax;
+}
+
+.profile-box-lower-button-edit:hover{
+    scale: 1.05;
+}
+
+.post-socialLanding{
+
+   width: 70vw;
+   display: flex;
+   flex-wrap: wrap;
+   height: auto;
+   justify-content: space-between;
+}
+
+.upper-post{
+    display: flex;
+}
+
+.useravatar-post{
+    width: 3vmax;
+    border-radius: 50%;
+    margin: 1vmax;
+}
+.image-post{
+    width: 100%;
+}
+.post-div-social{
+    background-color: #e8e1f3;
+    border-radius: 1vmax;
+    width: 20vmax;
+    height: auto;
+    align-items: left;
+    margin-top: 1vmax;
+    box-shadow: 5px 5px 10px 2px #6a6060;
+    
+}
+
+.profile-post-description{
+    padding: 1.2vmax;
+    padding-top: 0;
+    text-align: left;
+    margin: 0;
+}

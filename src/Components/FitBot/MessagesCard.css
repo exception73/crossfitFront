@@ -1,0 +1,23 @@
+.message-card{
+    background-color: gainsboro;
+    /* width: 70%; */
+    max-width: 75%;
+    padding:1vmax;
+    margin: 1vmax;
+    border-radius: 0.5vmax;
+    display: inline-block;
+    clear:both;
+}
+
+.message-card-right{
+    float: right;
+    background-color: #f3f3f3;
+    color: rgb(0, 0, 0);
+}
+
+
+.message-card-left{
+    float: left;
+    background-color: #b4a8f3;
+    color: rgb(0, 0, 0);
+}

@@ -1,0 +1,90 @@
+.we-arecrossfit{
+    height: 60vh;
+    background: radial-gradient(20.81% 33.48% at 28.63% 44.69%, #494949 0%, rgb(0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.weare{
+    position: absolute;
+    right: 0;
+    width: 50vmax;
+    height: 1.5px;
+    /* font-size: 100px; */
+    background-color: white;
+}
+
+.left-wearecrossfit img{
+    width: 30vmax;
+}
+
+.right-wearecrossfit{
+    width: 20vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2vmax;
+}
+
+.we-are-crossfit-paragraph{
+    font-size: 1.2vmax;
+    color: white;
+    line-height: 2vmax;
+    font-weight: 400;
+}
+
+.wearecrosfit-tagline{
+    font-size:2vmax;
+    font-weight: 600;
+    font-size: 2vmax;
+    color: white;
+    margin-top: 2vmax;
+    
+    /* font-weight: bold; */
+}
+
+.wearecrossfit-btn1{
+    background-color: white;
+    font-size: 1vmax;
+    margin-top: 2vmax;
+    padding: 0.6vmax;
+    padding-right: 2.8vmax;
+    padding-left: 2.8vmax;
+    border-radius: 1.5vmax;
+    margin-left: 1vmax;
+    text-decoration: none;
+    color: black;
+       
+}
+.btn-con{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wearecrossfit-btn2{
+    background-color: white;
+    font-size: 1vmax;
+    margin-top: 2vmax;
+    padding: 0.6vmax;
+    padding-right: 3vmax;
+    padding-left: 3vmax;
+    border-radius: 1.5vmax;
+    margin-left: 1vmax;
+     text-decoration: none;
+     color: black;
+}
+
+
+@media screen and (max-width: 600px){
+    .we-arecrossfit{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 45vh;
+        background: radial-gradient(40.81% 33.48% at 38.63% 24.69%, #494949 0%, rgb(0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    }
+    .left-wearecrossfit{
+        margin-bottom: 2vh;
+    }
+}

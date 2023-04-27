@@ -1,0 +1,77 @@
+.before-login-landing-page{
+    width: 100vw;
+    height: 100vh;
+   background: url('https://res.cloudinary.com/dycitvrpg/image/upload/v1682330805/cross_fit_r754fi.png');
+   background-size: cover;
+}
+
+.before-login-landing-page-crossfit-img{
+  margin: 2vmax ;
+  width: 20vmax;
+  max-width: 220px;
+
+}
+
+.before-login-landing-page-btn-div{
+    position: absolute;
+    bottom: 4vmax;
+    right: 3vmax;
+}
+
+.before-login-landing-page-signup{
+    text-decoration: none;
+    margin: 1vmax;
+    color: black;
+    background-color: white;
+    font-weight: 600;
+    padding: 1vmax 3vmax;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    
+}
+
+
+.before-login-landing-page-signin{
+text-decoration: none;
+margin: 1vmax;
+color: rgb(255, 255, 255);
+background-color: #9d8cff;
+font-weight: 600;
+padding: 1vmax 3vmax;
+border-radius: 30px;
+font-size: 1.3rem;
+}
+
+@media screen and (max-width:600px) {
+    .before-login-landing-page{
+        width: 100vw;
+        height: 100vh;
+       background: url('https://res.cloudinary.com/dejvlvhlp/image/upload/v1682330632/iPhone_8_Plus_-_1_nhg5cj.png');
+       background-size: cover;
+       background-position-x: center;
+       /* background-repeat: no-repeat; */
+    }
+
+    .before-login-landing-page-crossfit-img{
+        display: none;
+    }
+
+    .before-login-landing-page-btn-div{
+        position: absolute;
+        bottom: 10vh;
+        right: 3vmax;
+        display: flex;
+        flex-direction: column;
+        width: 90%
+    }
+
+    .before-login-landing-page-signin{
+        text-align: center;
+        }
+
+        .before-login-landing-page-signup{
+            text-align: center;   
+        }
+        
+    
+}

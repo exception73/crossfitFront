@@ -1,0 +1,102 @@
+.card{
+    margin-bottom: 5vmax;
+    margin-top: 2vmax;
+    padding-top:2vmax ;
+    border-radius: 1vmax;
+    color: rgb(132, 132, 132);
+    background-color: #000000;
+    box-shadow: 5px 5px 10px 0.2px rgba(97, 94, 122, 0.5);
+    width: 30vmax !important;
+    height: 25vh;
+    justify-content: center;
+    padding: 1vmax;
+}
+.app1{
+    padding: 2vmax;
+    background: linear-gradient(71.02deg, rgba(1, 9, 6, 0.861) -2.58%, #000000 53.17%);
+    justify-content: center;
+}
+.line2{
+    width: 97%;
+    background-color: rgb(132, 132, 132);
+    height: 1px;
+    margin-bottom: 2vmax;
+    margin:auto;
+    
+}
+.upper{
+    text-align: left;
+    padding: 1vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.add-your-review-btn{
+        border:none;
+    font-weight: 500;
+    padding: 1vmax;
+    font-size: 1.3vmax;
+    padding-right: 2vmax;
+    padding-left: 2vmax;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.core{
+    color: #9D8CFF;
+    margin-bottom: 0px;
+    font-size: 1vmax;
+}
+
+.reviww{
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.card img{
+    height: 3vmax;
+    border-radius: 50%;
+    margin-right: 3vmax;
+}
+.heading{
+    color: white;
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2vmax;
+}
+.lower{
+    padding: 3vmax;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+.line{
+    margin-top: 2vmax;
+    width: 95%;
+    background-color: rgb(132, 132, 132);
+    height: 0.2px;
+}
+
+.user-giving-review-name{
+    font-size: 1.2vmax;
+}
+
+@media screen and (max-width: 600px){
+    
+    .app1{
+        
+    }
+    
+.reviww{
+    color: white;
+    margin-top: 0px;
+    font-size: 2.2vh;
+    margin-bottom: 0;
+}
+
+}

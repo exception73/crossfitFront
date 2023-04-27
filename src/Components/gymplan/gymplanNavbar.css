@@ -1,0 +1,101 @@
+.gymplan-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000000;
+    box-shadow: rgba(253, 253, 255, 0.85) 0px 50px 100px -60px, rgba(255, 255, 255, 0.8) 0px -18px 35px 10px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
+    padding: 1rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding-left: 2vmax;
+    padding-right: 2vmax;
+  }
+  
+  .hamburger-nomenu{
+      display: none;
+  }
+  
+  .hamburger-menu{
+      display: none;
+  }
+  
+  .navbar-noview{
+      display: none;
+  }
+  
+  
+  
+  .navbar-links{
+      text-decoration: none;
+      margin: 1.2rem;
+      color: white;
+      font-weight: 400;
+      font-size: 1.2vmax;
+      font-family: 'Ubuntu', sans-serif;
+  }
+  
+  
+  
+  .crossfit-logo {
+      height: 3rem;
+  }
+  
+  .user-logo{
+      height: 3rem;
+  }
+  
+  .navbar-mobile-view{
+      display: none;
+  }
+  
+  .mobile-navbar-link{
+      text-decoration: none;
+  }
+  
+  .not-show-cross{
+      display: none;
+  }
+  
+  
+  
+  @media screen and (max-width: 600px){
+  
+      .show-cross{
+          display: inline;
+          color: white;
+      }
+  
+      .not-show-cross{
+          display: none;
+      }
+  
+      .hamburger-menu{
+          display: inline;
+          color: white;
+      }
+     
+      .navbar-links, .user-logo{
+          display: none;
+      }
+      .navbar-mobile-view{
+          /* display: inline; */
+          position: absolute;
+          right: 0;
+          left: 0;
+          top: 84px;
+          background-color: white;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+      .navbar-noview{
+          display: none;
+      }
+      
+      .hamburger-nomenu{
+          color: white;
+          /* display: none; */
+      }
+  }

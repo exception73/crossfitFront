@@ -1,0 +1,127 @@
+.sign-in-page{
+    background-color: black;
+    height: 100vh;
+}
+
+.sign-in-page-img{
+    margin: 2vmax ;
+  width: 20vmax;
+  max-width: 220px;
+}
+
+.sign-in-main{
+    box-shadow: 4px 2px 15px 1px rgba(246, 239, 239, 0.358);
+border-radius: 10px;
+width: 80vw;
+height: 80vh;
+max-height: 600px;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+
+.sign-in-main-left{
+    width: 30vmax;
+    
+}
+
+.sign-in-left-welcome{
+    color: white;
+    font-size: 5vmax;
+    font-weight: bolder;
+    margin-bottom: 5vmax;
+    letter-spacing: 0.4rem;
+}
+
+.sign-in-left-para{
+    color: white;
+    width: 80%;
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+}
+
+.sign-in-main-right{
+    background: rgba(255, 252, 252, 0.2);
+border-radius: 15px;
+    width: 30vmax;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.sign-in-right-signin{
+    margin: 1rem;
+    color: white;
+    font-size: 3vmax;
+    font-weight: bolder;
+}
+
+.sign-in-right-email-container{
+    margin-bottom: 3vmax;
+    width: 100%;
+}
+
+.sign-in-right-email-container p{
+    color: white;
+    font-weight: 300;
+}
+
+.sign-in-right-email-container input{
+    outline: none;
+    border: none;
+    height: 2vmax;
+    width: 90%;
+}
+
+.sign-in-button{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.sign-in-right-pass-container p{
+    color: white;
+    font-weight: 300;
+}
+
+.sign-in-right-pass-container input{
+    outline: none;
+    border: none;
+}
+
+
+.sign-in-page-router{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+}
+
+.sign-in-page-link-div{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end; */
+
+    align-items: end;
+    /* border: 1px solid red; */
+}
+
+@media screen and (max-width:600px) {
+    .sign-in-page{
+        background-color: black;
+        height: 100vh;
+    }
+    .sign-in-main{
+        margin-top:5vh ;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sign-in-left-para{
+        display: none;
+    }
+}

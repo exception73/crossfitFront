@@ -1,0 +1,26 @@
+.fit-mart-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vmax;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    background-color: rgb(246, 246, 246);
+}
+
+.fit-mart-nav-user-logo img{
+    height: 3rem;
+   
+}
+
+.fit-mart-nav-crossfit-logo img{
+    height: 3rem;
+    
+}
+
+
+.fit-mart-nav-second-link{
+    margin: 1vmax;
+    text-decoration: none;
+}

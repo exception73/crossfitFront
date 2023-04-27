@@ -1,0 +1,168 @@
+.socialhome-main-div{
+    
+    background: linear-gradient(288.7deg, rgba(157, 140, 255, 0.1288) 45.33%, rgba(244, 242, 255, 0) 106.02%);
+}
+
+.socialhome-main-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialhome-left-heading-para-cross{
+    font-size: 6vh;
+    margin-top: 1.5vh;
+    font-weight: bolder;
+    color: #06002e;
+    margin-left: 2vw;
+}
+
+.socialhome-left-heading-para-fit{
+    color: #9d8cff;
+
+}
+
+.socialhome-left-profile-div{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 3vmax;
+    margin-top: 3vh;
+    border-radius: 1vmax;
+    
+}
+
+.socialhome-left-img{
+    border-radius: 50%;
+    height: 20vh;
+}
+
+.socialhome-left-desc{
+    margin-top: 0px;
+    font-size: 2vh;
+}
+
+.socialhome-left-name{
+    margin-bottom: 0px;
+}
+
+.socialhome-left-BUTTON-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.socialhome-left-no-post{
+    font-weight: lighter;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+
+.socialhome-left-BUTTON{
+    margin: 1vh;
+    color: white;
+    background-color: black;
+    padding: 1vh;
+    border-radius: 1.2vh;
+}
+
+.socialhome-left-BUTTON:hover{
+    scale: 1.1;
+}
+
+.socialhome-right-div{
+    background-color: white;
+    padding: 2vmax;
+    position: fixed;
+    right: 0;
+    height: 100vh;
+    overflow-y: scroll;
+    width: 20vw;
+}
+.user-palette{
+    display: flex;
+    padding: 0;
+    border: 1px solid #06002e;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px 0.5px #06002e84;
+    margin-top:3vh;
+}
+
+.social-post-user-palette-img{
+    height: 100%;
+    width: 100%;
+}
+.img-palette-div{
+    width: 25%;
+    
+    margin: 0;
+}
+.userpalette-right{
+    width: 70%;
+    text-align: center;
+}
+
+.socialhome-left-div{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 20vw;
+    height: 100vh;
+
+}
+
+.socialhome-center-div{
+    margin-left: 18vmax;
+}
+
+
+
+.mobile-navbar-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-mobile-crossfit-button, .navbar-mobile-hamburger-button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin: 1vh;
+}
+.navbar-mobile-crossfit-button{
+    margin-left: 3vh;
+}
+.cross-mobile-para{
+    font-weight: bolder;
+    color: black;
+    font-size: 2rem;
+}
+
+.fit-mobile-para{
+    font-weight: bolder;
+    color: #9d8cff;
+    font-size: 2rem;
+}
+
+.navbar-mobile-hamburger-button{
+    font-size: 2rem;
+    margin-right: 3vh;
+    margin-top: 2vh;
+}
+
+.active-mobile-user-info{
+   
+}
+
+.unactive-mobile-user-info{
+    display: none;
+}
+
+.social-palette-username{
+    overflow-x: hidden;
+}
+
+.navbar-mobile-crossfit-button:hover{
+    cursor: pointer;
+}
+
+.socialhome-left-heading-para-cross:hover{
+    cursor: pointer;
+}

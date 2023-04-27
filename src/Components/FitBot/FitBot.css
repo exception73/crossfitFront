@@ -1,0 +1,200 @@
+.fit-bot-body{
+  background:#03010c;
+  background-size: cover;
+  background-position: center center;
+  height: 82vh;
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+}
+
+
+.logo-container
+{
+  width: 100%;
+  text-align: center;
+}
+
+.fitbot-image{
+  width: 45vw;
+}
+.codingnexus a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#loading {
+  font-size: 50px;
+}
+
+/* Style the chat box */
+.chat-box {
+  /* margin-left: -100px; */
+  right: 0;
+  width: 500px;
+  max-width: 100%;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 70vh;
+  position: absolute;
+  top: 10vmax;
+  left: 30vmax;
+}
+
+.codingnexus {
+  width: 100%;
+  text-align: center;
+}
+
+/* Style the chat box header */
+.chat-box-header {
+  background-color: white;
+  color:#06002e;
+  padding: 16px;
+  font-size: 20px;
+  font-weight: bold;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+
+
+}
+
+/* Style the chat box body */
+.chat-box-body {
+  padding: 10px;
+  overflow-y: auto;
+  height: calc(100% - 145px);
+
+}
+
+/* Style the chat messages */
+.chat-box-body .message,
+.chat-box-body .response {
+  margin-bottom: 16px;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+/* Style the user's messages */
+.chat-box-body .message {
+  background-color: #e6e6e6;
+  color: #333333;
+}
+
+/* Style the chatbot's responses */
+.chat-box-body .response {
+  background-color:   #cfcfcf;
+  color: #9d8cff;
+  text-align: right;
+}
+
+/* Style the chat box footer */
+.chat-box-footer {
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 8px 16px;
+  margin-bottom: 0;
+}
+
+/* Style the input field */
+.chat-box-footer input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Style the button */
+.chat-box-footer button {
+  margin-left: 8px;
+  padding: 8px 16px;
+  background-color: #06002ee3;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Add some hover effects to the button */
+.chat-box-footer button:hover {
+  background-color: #0073e6;
+}
+
+.chat-box-footer button:active {
+  background-color: #005bbf;
+}
+
+.fitbot-right{
+  position: absolute;
+  top: 15vh;
+  right: 8vw;
+  width: 25vw;
+}
+
+.fitbot-right-head{
+  color: white;
+  margin-top: 3vw;
+  font-size: 3vmax;
+}
+
+.fitbot-right-desc{
+  color: rgb(184, 183, 183);
+  margin: 0;
+}
+
+.fitbot-hashtag{
+  margin-top: 3vmax;
+  background: linear-gradient(109.14deg, #4336DB 8.23%, rgba(196, 156, 228, 0.89) 73.05%);
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+  font-size: 2vmax;
+}
+
+
+@media screen and (max-width:600px) {
+.fitbot-image{
+  display: none;
+}
+.fitbot-right-desc{
+  display: none;
+}
+.fitbot-right-head{
+  display: none;
+  
+}
+.fitbot-right {
+  position: absolute;
+  top: 11vh;
+  right: 43vw;
+  width: 51vw;
+}
+
+
+
+.fitbot-hashtag{
+  position: relative;
+  left: 0;
+}
+
+.chat-box{
+  position: relative;
+  top: 10px;
+
+  left: 0px;
+  width: 90vw;
+  margin: auto;
+  height: 70vh;
+
+
+}
+}
