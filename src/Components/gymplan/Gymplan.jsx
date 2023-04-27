@@ -9,14 +9,14 @@ import { saveAs } from 'file-saver';
 import { gymPlanAction } from '../../redux/slices/gymPlanSlice';
 
 const Gymplan = () => {
-    const [age, setage] = useState();
-    const [height, setHeight] = useState();
-    const [weight, setWeight] = useState();
-    const [gender, setgender] = useState();
-    const [goal, setgoal] = useState();
-    const [TainingSplit, setTrainingSplit] = useState();
-    const [duration, setDuration] = useState();
-    const [workout, setWorkout] = useState();
+    let [age, setage] = useState();
+    let [height, setHeight] = useState();
+    let [weight, setWeight] = useState();
+    const [gender, setgender] = useState("male");
+    const [goal, setgoal] = useState("Loose Weight");
+    const [TainingSplit, setTrainingSplit] = useState("Push-pull-legs");
+    const [duration, setDuration] = useState("1");
+    const [workout, setWorkout] = useState("home workout");
 
 
     const dispatch = useDispatch();
@@ -60,6 +60,9 @@ const Gymplan = () => {
     }
 
     const onGymPlanSubmit=()=>{
+        if(age === undefined) age = 25
+        if(weight === undefined) weight = 80
+        if(height === undefined) height = 170
         const message = `Make a Gym Plan for a ${gender} aged ${age} years old. Having weight ${weight}Kgs and height ${height}cms. Want to ${goal} with a training split
                             of ${TainingSplit} with a duration of ${duration} at ${workout}.`
         console.log(message);
@@ -95,13 +98,13 @@ const Gymplan = () => {
                             </select>
                         </div>
                         <div className='input-fields-dietplan'>
-                            <input type="number" onChange={ageChangeHandler}  value={age} placeholder='Age' className='input-fields-dietplan-item' />
+                            <input type="number" onChange={ageChangeHandler}  value={age} placeholder='Age(yrs)' className='input-fields-dietplan-item' />
                         </div>
                         <div className='input-fields-dietplan'>
-                            <input type="number" onChange={heightChangeHandler} value={height}className='input-fields-dietplan-item' placeholder='Height' />
+                            <input type="number" onChange={heightChangeHandler} value={height}className='input-fields-dietplan-item' placeholder='Height(cms)' />
                         </div>
                         <div className='input-fields-dietplan'>
-                            <input type="number" onChange={weightChangeHandler} value={weight}  placeholder='Weight' className='input-fields-dietplan-item' />
+                            <input type="number" onChange={weightChangeHandler} value={weight}  placeholder='Weight(kgs)' className='input-fields-dietplan-item' />
                         </div>
                     </div>
                     <div className='gymplan-lower-right'>

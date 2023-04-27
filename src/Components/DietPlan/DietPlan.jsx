@@ -13,10 +13,10 @@ import { saveAs } from 'file-saver';
 
 const DietPlan = () => {
     const [selectedButtons, setSelectedButtons] = useState([]);
-    const [age, setage] = useState();
-    const [height, setHeight] = useState();
-    const [weight, setWeight] = useState();
-    const [gender, setgender] = useState();
+    let [age, setage] = useState();
+    let [height, setHeight] = useState();
+    let [weight, setWeight] = useState();
+    const [gender, setgender] = useState("male");
     const dispatch=useDispatch();
 
     const {loading, error, DietPlanImage} = useSelector((state) => state.dietPlan)
@@ -40,6 +40,10 @@ const DietPlan = () => {
     }
 
     const onDietPlanSubmit=()=>{
+        if(age === undefined) age = 25
+        if(weight === undefined) weight = 80
+        if(height === undefined) height = 170
+        
         const message = `Make a Diet Plan for a ${gender} aged ${age} years old. Having weight ${weight}Kgs and height ${height}cms. Want to stay fit and strong with these food items ${selectedButtons} having  a balanced nutritious diet and a 
                          qoute for motivation too`
         console.log(message);
@@ -81,13 +85,13 @@ const DietPlan = () => {
                                     </select>
                                 </div>
                                 <div className='input-fields-dietplan'>
-                                    <input type="number" onChange={ageChangeHandler} placeholder='Age' className='input-fields-dietplan-item' />
+                                    <input type="number" onChange={ageChangeHandler} placeholder='Age(years)' className='input-fields-dietplan-item' />
                                 </div>
                                 <div className='input-fields-dietplan'>
-                                    <input type="number" onChange={heightChangeHandler} className='input-fields-dietplan-item' placeholder='Height' />
+                                    <input type="number" onChange={heightChangeHandler} className='input-fields-dietplan-item' placeholder='Height(Cms)' />
                                 </div>
                                 <div className='input-fields-dietplan'>
-                                    <input type="number" onChange={weightChangeHandler} placeholder='Weight' className='input-fields-dietplan-item' />
+                                    <input type="number" onChange={weightChangeHandler} placeholder='Weight(kg)' className='input-fields-dietplan-item' />
                                 </div>
 
                             </div>
