@@ -128,7 +128,7 @@ export const resetPasswordAction = createAsyncThunk('reset/password', async ({ r
 
 export const logoutAction = createAsyncThunk(`/logout/profile`, async ({check},{getState,rejectWithValue}) => {
     try {
-        const token = getState()?.users?.userAuth?.userInfo?.user?.token;
+        // const token = getState()?.users?.userAuth?.userInfo?.user?.token;
         localStorage.removeItem('userInfo');
         
         const data = "user logout successfull";

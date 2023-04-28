@@ -21,6 +21,8 @@ const SwiperComponent = () => {
 
   // let test = useSelector((state)=>state.testimonial?.testimonials?.test);
   const test1 = useSelector((state) => state.testimonial?.testimonials.test)
+  
+  // test1.reverse();
   // console.log(test1);
   // const {test: test2} = test1
   // console.log(test2);

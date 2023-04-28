@@ -3,16 +3,23 @@ import './Navbar.css'
 import styles from "./Nav.module.css"
 import { HashLink } from 'react-router-hash-link'
 import { Link} from 'react-router-dom'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { useEffect } from 'react'
+import { logoutAction } from '../../redux/slices/userSlice'
 
 const Navbar = () => {
   const [open,setstate] = useState(0);
+  const dispatch = useDispatch()
   const {user}=useSelector((state)=>state.users.userAuth?.userInfo);
   console.log(user);
   const toggleBodyClass = () => {
     document.body.classList.toggle(styles.menuActive);
        (open === 0 )? setstate(1) : setstate(0);
+    }
+
+    const logoutonClick = () => {
+      const my ="Hi"
+      dispatch(logoutAction({my}));
     }
   return (
     // <div className='navbar'>
@@ -51,6 +58,9 @@ const Navbar = () => {
           </li>
           <li className={styles.menuItem}>
           <Link className={styles.navLink} to="/fitbot"> FitBot</Link>
+          </li>
+          <li className={styles.menuItem}>
+          <button onClick={logoutonClick}  >Logout</button>
           </li>
           <li className={styles.menuItem}>
           <Link className={styles.navLink} to="/profile"><button className={styles.cvdownbtn}><img className='user-logo' src={user?.avatar} alt="" /></button>
