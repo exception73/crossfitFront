@@ -19,7 +19,7 @@ const GetInTouch = () => {
       </div>
 
       <div className='get-in-touch-middle' >
-        <img className='getintouch-user-photo' src="https://res.cloudinary.com/dycitvrpg/image/upload/v1682617813/WhatsApp_Video_2023-04-27_at_23.16.55_k2tfpd.gif" alt="" />
+        <img className='getintouch-user-photo' src="https://res.cloudinary.com/dycitvrpg/image/upload/v1682960607/gautam_todvvy.png" alt="" />
         <p className='getintouch-username'>Gautam Khatri</p>
         <p className='getintouch-userdesc'>Full Stack Developer</p>
       </div>
