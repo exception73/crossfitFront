@@ -70,12 +70,12 @@ const SignIn = () => {
                       
 
                         <p className='sign-up-page-input-fields-desc'>Email</p>
-                        <input onChange={emailChangeHandler} required className='sign-up-page-input-fields' type="email" />
+                        <input onChange={emailChangeHandler} value = {email} required className='sign-up-page-input-fields' type="email" />
                   
 
                     
                         <p className='sign-up-page-input-fields-desc'>Password</p>
-                        <input onChange={passwordChangeHandler} required className='sign-up-page-input-fields' type="password" />
+                        <input onChange={passwordChangeHandler} value = {password} required className='sign-up-page-input-fields' type="password" />
                    
 
                    <div className='sign-up-page-submit-btn-div'>
