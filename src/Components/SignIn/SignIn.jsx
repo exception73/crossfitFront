@@ -15,8 +15,8 @@ const SignIn = () => {
   
 
 
-  const [email, setEmail] = useState("buddhgautam777@gmail.com")
-  const [password, setPassword] = useState("gautam")
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("")
 
   const emailChangeHandler = (e) => {
     setEmail(e.target.value)
