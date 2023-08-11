@@ -59,7 +59,7 @@ function App() {
               <WhyCrossFit />
               <Swiper data={data} />
               <Wearecrossfit />
-              <GetInTouch />
+              // <GetInTouch />
               <Footer />
             </>
           }
@@ -72,7 +72,7 @@ function App() {
             <WhyCrossFit />
             <Swiper />
             <Wearecrossfit />
-            <GetInTouch />
+            // <GetInTouch />
             <Footer />
           </>) : <SignIn />
         } />
@@ -83,7 +83,7 @@ function App() {
           <WhyCrossFit />
           <Swiper data={data} />
           <Wearecrossfit />
-          <GetInTouch />
+          // <GetInTouch />
           <Footer />
         </>) : <SignUp />} />
 
