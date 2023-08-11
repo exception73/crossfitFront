@@ -59,7 +59,7 @@ function App() {
               <WhyCrossFit />
               <Swiper data={data} />
               <Wearecrossfit />
-              // <GetInTouch />
+
               <Footer />
             </>
           }
@@ -72,7 +72,7 @@ function App() {
             <WhyCrossFit />
             <Swiper />
             <Wearecrossfit />
-            // <GetInTouch />
+    
             <Footer />
           </>) : <SignIn />
         } />
@@ -83,7 +83,7 @@ function App() {
           <WhyCrossFit />
           <Swiper data={data} />
           <Wearecrossfit />
-          // <GetInTouch />
+ 
           <Footer />
         </>) : <SignUp />} />
 
@@ -93,7 +93,7 @@ function App() {
           <WhyCrossFit />
           <Swiper data={data} />
           <Wearecrossfit />
-          // <GetInTouch />
+       
           <Footer />
         </>) : <Otp />} />
         <Route path='/forget/password' element={<ForgetPassword />} />
