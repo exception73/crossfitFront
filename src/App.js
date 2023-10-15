@@ -244,7 +244,7 @@ function App() {
           element={
             !isLoggedIn ? <BeforeLoginLandingPage /> : <>
               <Navbar />
-             / <img src="https://indianmemetemplates.com/wp-content/uploads/dhat-teri-maa-ki.jpg" alt="naughty hora bhen k lode" />
+              <img src="https://indianmemetemplates.com/wp-content/uploads/dhat-teri-maa-ki.jpg" alt="naughty hora bhen k lode" />
                
               <GetInTouch />
               <Footer />
