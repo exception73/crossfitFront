@@ -244,7 +244,7 @@ function App() {
           element={
             !isLoggedIn ? <BeforeLoginLandingPage /> : <>
               <Navbar />
-              <img src="https://indianmemetemplates.com/wp-content/uploads/dhat-teri-maa-ki.jpg" alt="naughty hora bhen k lode" />
+             / <img src="https://indianmemetemplates.com/wp-content/uploads/dhat-teri-maa-ki.jpg" alt="naughty hora bhen k lode" />
                
               <GetInTouch />
               <Footer />
@@ -255,6 +255,7 @@ function App() {
         <Route path="/signin" element={
           isLoggedIn ? (<>
             <Navbar />
+               <img src="https://indianmemetemplates.com/wp-content/uploads/dhat-teri-maa-ki.jpg" alt="naughty hora bhen k lode" />
             <LandingPage />
             <WhyCrossFit />
             <Swiper />
@@ -266,6 +267,7 @@ function App() {
 
         <Route path="/signup" element={isLoggedIn ? (<>
           <Navbar />
+               <img src="https://indianmemetemplates.com/wp-content/uploads/dhat-teri-maa-ki.jpg" alt="naughty hora bhen k lode" />
           <LandingPage />
           <WhyCrossFit />
           <Swiper data={data} />
@@ -276,6 +278,7 @@ function App() {
 
         <Route path="/otp" element={isLoggedIn ? (<>
           <Navbar />
+               <img src="https://indianmemetemplates.com/wp-content/uploads/dhat-teri-maa-ki.jpg" alt="naughty hora bhen k lode" />
           <LandingPage />
           <WhyCrossFit />
           <Swiper data={data} />
