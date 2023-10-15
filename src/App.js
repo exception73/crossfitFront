@@ -244,7 +244,8 @@ function App() {
           element={
             !isLoggedIn ? <BeforeLoginLandingPage /> : <>
               <Navbar />
-              <img src = " https://i.ytimg.com/vi/eSBJH7bHjUk/sddefault.jpg" alt="naughty hora bhen k lode" />
+              <img src="https://i.ytimg.com/vi/eSBJH7bHjUk/sddefault.jpg" alt="naughty hora bhen k lode" style="width: 80%; height: 60%; object-fit: cover;">
+              <h1> Mader chod puch k to utha leta project, ma chudva le apni ab, baski ho to le lio ENV file </h1>
               <LandingPage />
               <WhyCrossFit />
               <Swiper data={data} />
