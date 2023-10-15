@@ -246,10 +246,6 @@ function App() {
               <Navbar />
               <img src="https://indianmemetemplates.com/wp-content/uploads/dhat-teri-maa-ki.jpg" alt="naughty hora bhen k lode" />
                
-              // <LandingPage />
-              // <WhyCrossFit />
-              // <Swiper data={data} />
-              // <Wearecrossfit />
               <GetInTouch />
               <Footer />
             </>
