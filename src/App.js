@@ -44,196 +44,7 @@ function App() {
   const userInfo = useSelector((state) => state.users?.userAuth?.userInfo);
   const isLoggedIn = userInfo ? true : false;
   return (
-    // <BrowserRouter>
-    //   <Routes>
-
-
-    //     <Route path="unlogin" element={<BeforeLoginLandingPage />} />
-
-    //     <Route
-    //       path="/"
-    //       element={
-    //         !isLoggedIn ? <BeforeLoginLandingPage /> : <>
-    //           <Navbar />
-    //           <LandingPage />
-    //           <WhyCrossFit />
-    //           <Swiper data={data} />
-    //           <Wearecrossfit />
-
-    //           <Footer />
-    //         </>
-    //       }
-    //     />
-
-    //     <Route path="/signin" element={
-    //       isLoggedIn ? (<>
-    //         <Navbar />
-    //         <LandingPage />
-    //         <WhyCrossFit />
-    //         <Swiper />
-    //         <Wearecrossfit />
-    
-    //         <Footer />
-    //       </>) : <SignIn />
-    //     } />
-
-    //     <Route path="/signup" element={isLoggedIn ? (<>
-    //       <Navbar />
-    //       <LandingPage />
-    //       <WhyCrossFit />
-    //       <Swiper data={data} />
-    //       <Wearecrossfit />
- 
-    //       <Footer />
-    //     </>) : <SignUp />} />
-
-    //     <Route path="/otp" element={isLoggedIn ? (<>
-    //       <Navbar />
-    //       <LandingPage />
-    //       <WhyCrossFit />
-    //       <Swiper data={data} />
-    //       <Wearecrossfit />
-       
-    //       <Footer />
-    //     </>) : <Otp />} />
-    //     <Route path='/forget/password' element={<ForgetPassword />} />
-    //     <Route path='/reset/password/:id' element={<ResetPassword />} />
-
-    //     <Route path="/dietplan" element={
-    //       isLoggedIn ? (<>
-    //         <GymplanNavbar />
-    //         <DietPlan />
-    //         <Footer />
-    //       </>) :<BeforeLoginLandingPage />
-    //     } />
-    //     <Route
-    //       path="/fitbot"
-    //       element={
-    //        isLoggedIn ? (
-    //         <> 
-    //         <Navbar />
-    //         <FitBot />
-    //         <Footer />
-    //        </>)  :<BeforeLoginLandingPage />
-           
-    //       }
-    //     />
-
-    //     <Route
-    //       path="/review"
-    //       element={
-    //        isLoggedIn ? ( <>
-    //         <Navbar />
-    //         <Review />
-    //         <Footer />
-    //       </>) :<BeforeLoginLandingPage />
-    //       }
-    //     />
-
-    //     <Route
-    //       path="/improve"
-    //       element={
-    //       isLoggedIn ? (  <>
-    //         <Navbar />
-    //         <Improve />
-    //         <Footer />
-    //       </>) :<BeforeLoginLandingPage />
-    //       }
-    //     />
-
-
-    //     <Route path="/community" element={
-
-    //       isLoggedIn ? (  <>
-    //         <Socialhome />
-    //       </>) : <BeforeLoginLandingPage />
-        
-    //     } />
-
-    //     <Route path="/newpost" element={
-
-    //      isLoggedIn ? ( <>
-    //       <NewPost />
-    //     </>) : <BeforeLoginLandingPage />
-    //     } />
-
-
-
-
-    //     <Route path="/feedback" element={
-    //      isLoggedIn ? ( <>
-    //       <Navbar />
-    //       <Improve />
-    //       <Footer />
-    //     </>
-    //      ): <BeforeLoginLandingPage />
-    //     } />
-
-    //     <Route path="/shop" element={
-         
-    //       isLoggedIn ?  <FitMart /> : <BeforeLoginLandingPage />
-         
-    //     } />
-
-
-    //     <Route path='/single-product' element={ isLoggedIn ? <>
-    //       <FitmartNavbar />
-    //       <SingleProduct />
-    //       <Footer />
-    //     </>: <BeforeLoginLandingPage />} />
-
-    //     <Route path="/cart" element={
-    //      isLoggedIn ? <>
-    //         <FitmartNavbar />
-    //         <CartHeading heading='My Cart' />
-
-    //         <Cart />
-    //         <Footer />
-
-    //       </> : <BeforeLoginLandingPage />
-    //     } />
-
-    //     <Route path='/orders' element={
-    //      isLoggedIn ? <>
-    //         <FitmartNavbar />
-    //         <CartHeading heading='My Orders' />
-    //         <ShopingItems />
-    //         <Footer />
-    //       </> : <BeforeLoginLandingPage />
-    //     } />
-
-    //     <Route path="/gymplan" element={
-    //      isLoggedIn ? <>
-    //         <Gymplan />
-    //         <Footer />
-    //       </> : <BeforeLoginLandingPage />
-    //     } />
-
-
-
-
-
-    //     <Route path="/profile" element={
-    //       !isLoggedIn ? <BeforeLoginLandingPage /> : <>
-    //         <Navbar />
-    //         <Profile />
-    //         <Footer />
-    //       </>
-    //     } />
-
-    //     <Route path='/community/user' element={
-    //      isLoggedIn ? <>
-    //         <UserSocialhome />
-    //       </> : <BeforeLoginLandingPage />
-    //     } />
-
-    //     <Route path="*" element={<PageNotFound />} />
-
-    //   </Routes>
-    // </BrowserRouter>
-
-
-        <BrowserRouter>
+    <BrowserRouter>
       <Routes>
 
 
@@ -244,8 +55,10 @@ function App() {
           element={
             !isLoggedIn ? <BeforeLoginLandingPage /> : <>
               <Navbar />
-              <img src="https://indianmemetemplates.com/wp-content/uploads/dhat-teri-maa-ki.jpg" alt="naughty hora bhen k lode" />
-               
+              <LandingPage />
+              <WhyCrossFit />
+              <Swiper data={data} />
+              <Wearecrossfit />
               <GetInTouch />
               <Footer />
             </>
@@ -255,7 +68,6 @@ function App() {
         <Route path="/signin" element={
           isLoggedIn ? (<>
             <Navbar />
-               <img src="https://indianmemetemplates.com/wp-content/uploads/dhat-teri-maa-ki.jpg" alt="naughty hora bhen k lode" />
             <LandingPage />
             <WhyCrossFit />
             <Swiper />
@@ -267,7 +79,6 @@ function App() {
 
         <Route path="/signup" element={isLoggedIn ? (<>
           <Navbar />
-               <img src="https://indianmemetemplates.com/wp-content/uploads/dhat-teri-maa-ki.jpg" alt="naughty hora bhen k lode" />
           <LandingPage />
           <WhyCrossFit />
           <Swiper data={data} />
@@ -278,7 +89,6 @@ function App() {
 
         <Route path="/otp" element={isLoggedIn ? (<>
           <Navbar />
-               <img src="https://indianmemetemplates.com/wp-content/uploads/dhat-teri-maa-ki.jpg" alt="naughty hora bhen k lode" />
           <LandingPage />
           <WhyCrossFit />
           <Swiper data={data} />
@@ -301,7 +111,7 @@ function App() {
           element={
            isLoggedIn ? (
             <> 
-            <Navbar />
+            <Navbar />  
             <FitBot />
             <Footer />
            </>)  :<BeforeLoginLandingPage />
@@ -394,11 +204,11 @@ function App() {
 
         <Route path="/gymplan" element={
          isLoggedIn ? <>
-         <GymplanNavbar/>
             <Gymplan />
             <Footer />
           </> : <BeforeLoginLandingPage />
         } />
+
 
 
 
