@@ -170,9 +170,7 @@ function App() {
         } />
 
         <Route path="/shop" element={
-         
           isLoggedIn ?  <FitMart /> : <BeforeLoginLandingPage />
-         
         } />
 
 
