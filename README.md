@@ -52,7 +52,7 @@ To build the application, run:
 This application is deployed on Vercel. You can access it here: https://crossfit-front-gamma.vercel.app/
 
 **Repository Link**
-Crossfit Frontend Repository
+Crossfit Backend Repository : https://github.com/exception73/crossfit-backend
 
 Contributions
 Contributions to the project are welcomed and appreciated. Feel free to submit pull requests with any improvements or fixes.
